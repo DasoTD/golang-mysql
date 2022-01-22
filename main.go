@@ -18,9 +18,9 @@ func main() {
 		panic(err)
 	}
 	//See "Important settings" section.
-	db.SetConnMaxLifetime(time.Minute * 3)
-	db.SetMaxOpenConns(10)
-	db.SetMaxIdleConns(10)
+	// db.SetConnMaxLifetime(time.Minute * 3)
+	// db.SetMaxOpenConns(10)
+	// db.SetMaxIdleConns(10)
 
 	db.Ping()
 	fmt.Println("DB CONNECTED")
