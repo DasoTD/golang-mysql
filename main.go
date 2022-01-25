@@ -12,7 +12,7 @@ import (
 
 func main() {
 	// message := fmt.Sprintf("Hi, Welcome!")
-	// return message
+	// return messagess
 	db, err := sql.Open("mysql", "username:password@(127.0.0.1:3306)/mongoAPI?parseTime=true")
 	if err != nil {
 		panic(err)
